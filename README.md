@@ -1,4 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Set up bootstrap with the following command:
+
+```
+$ npm install react-bootstrap@0.33.0 --save
+```
+
+```
+npm install react-router-dom@5.0.1 --save
+```
+This installs the react router
 
 ## Available Scripts
 
