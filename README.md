@@ -8,7 +8,14 @@ $ npm install react-bootstrap@0.33.0 --save
 ```
 npm install react-router-dom@5.0.1 --save
 ```
-This installs the react router
+This installs the react router.
+
+```
+npm install aws-amplify --save
+```
+Introduces the AWS amplify to help connect to the backend.
+Amplify refers to Cognito as Auth, S3 as Storage, and API Gateway as API.
+
 
 ## Available Scripts
 
