@@ -16,6 +16,14 @@ npm install aws-amplify --save
 Introduces the AWS amplify to help connect to the backend.
 Amplify refers to Cognito as Auth, S3 as Storage, and API Gateway as API.
 
+while developing you might run into cases where you need to manually confirm an unauthenticated user. You can do that with the AWS CLI using the following command.
+
+```
+aws cognito-idp admin-confirm-sign-up \
+   --region YOUR_COGNITO_REGION \
+   --user-pool-id YOUR_COGNITO_USER_POOL_ID \
+   --username YOUR_USER_EMAIL
+```
 
 ## Available Scripts
 
